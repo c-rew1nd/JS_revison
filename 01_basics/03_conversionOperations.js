@@ -1,5 +1,3 @@
-const { log } = require("@tensorflow/tfjs");
-
 let score = 33;
 let score2= "33abc"
 let score3= null 
