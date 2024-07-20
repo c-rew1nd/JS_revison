@@ -37,7 +37,7 @@ console.log(typeof anotherId);
 // https://262.ecma-international.org/5.1/#sec-11.4.3
 
 
-// -----------------------------------------------------------------
+// -----------------------------------------------------------------//
 
 //  Stack (Pimitive(call by value(copy of actual data))),  Heap(NonPrimitive(call by referance(actual data)))
 
