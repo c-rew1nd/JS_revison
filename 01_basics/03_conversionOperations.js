@@ -1,3 +1,5 @@
+const { log, log1p } = require("@tensorflow/tfjs");
+
 let score = 33;
 let score2= "33abc"
 let score3= null 
@@ -41,6 +43,29 @@ let stringOfsomeNumber = String(someNumber);
 console.log(someNumber);
 console.log(typeof stringOfsomeNumber);
 
+// ********************************************Operations************************************************ 
 
 
+let value = 3
+let negvalue = -value 
+console.log(negvalue);
+
+console.log(2+2);
+console.log(2-2);
+console.log(2*2);
+console.log(2**3);
+console.log(2/2);
+console.log(2%3); 
+
+let s1= "hello"
+let s2 = "Dreekt"
+console.log(s1+" "+s2);
+
+console.log("1" + 2);
+console.log(1+"2");
+console.log("1" + 2 + 2); // if string is first then rest of the line is treated as string 
+console.log(2+2+"1"); // if number is first then rest of the line is treated as number until string is encountered
+
+console.log(true);
+console.log(+true); // console.log(+true) => 1 , console.log(+"") => 0
 
