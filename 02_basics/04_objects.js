@@ -48,3 +48,22 @@ console.log(Object.values(tinderUser));
 console.log(Object.entries(tinderUser));
 
 console.log(tinderUser.hasOwnProperty("isLoggedIn"));
+
+
+const course ={
+    coursename : "js revision",
+    price: "999",
+    courseInstructor: "Dreekt"
+}
+ 
+const {courseInstructor: instructor} = course // renaiming courseinstructor as instructor (de-structring)
+console.log(instructornstructor);
+
+// ----- JSON -------
+
+/*{
+    "name" : "Dreekt",
+    "CourseName" : "JS Rev"
+    "price" : "free"
+} */
+// use json formator for API 
