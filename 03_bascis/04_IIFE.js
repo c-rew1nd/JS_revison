@@ -11,5 +11,5 @@
 
 ( (name)=>{
     console.log(`Welcome ${name}`);
-})("Dreekt"); 
+})("Dreekt");
 
