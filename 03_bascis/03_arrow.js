@@ -38,5 +38,6 @@ const addtwo = (n1,n2) => {
 
 console.log(addtwo(n1,n2));
 
-const add_three = (num1,num2,num3) => (num1+num2+num3) // implicit return (where we are not required to use the return keyword)
+//const add_three = (num1,num2,num3) => (num1+num2+num3) // implicit return (where we are not required to use the return keyword)
+const add_three = (num1,num2,num3) => ({username: "Dreekt"})
 console.log(add_three(3,4,5));
