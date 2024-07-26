@@ -53,3 +53,18 @@ form.addEventListener("submit" , (e)=>{
   }
 })
 ```
+
+## Project Three
+```javascript
+document.getElementById('clock')
+// we dont use server side cronjob for such a simple task normally
+setInterval(()=>{
+  let date = new Date()
+  clock.innerHTML = date.toLocaleTimeString()
+},1000)
+```
+
+## Project Four
+```javascript
+
+```
