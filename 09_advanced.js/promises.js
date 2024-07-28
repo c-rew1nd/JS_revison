@@ -4,7 +4,7 @@ const { log1p } = require("@tensorflow/tfjs");
 
 const promiseOne = new Promise(function (resolve, reject){
     // do and async task
-      //DB calls, cryptography, network
+    //DB calls, cryptography, network
     setTimeout(function(){
         console.log('Async task is complete');
         resolve()
