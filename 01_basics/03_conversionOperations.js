@@ -12,7 +12,7 @@ let valueInNumber3 = Number(score3);
 let valueInNumber4 = Number(score4)
 
 console.table([typeof(score), typeof(valueInNumber), typeof (valueInNumber2), valueInNumber4, valueInNumber3, 
-    valueInNumber2 /*will give NaN(a string that can't be converted to Number) not a number so can't be use for operations */ ]); // PS sorry for this ugly line of code 
+    valueInNumber2 /*will give NaN(a string that can't be converted to Number) not a number so can't be use for operations */ ]);  
 
 /* 
 Conversions to Nunber
